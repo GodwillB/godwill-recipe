@@ -36,7 +36,7 @@ const App = () => {
     setSearch('');
   }
 
-    return ( 
+  return ( 
     <div className = "App">
       <form onSubmit = {getSearch} className ="search-form">
         <input className = "search-bar"
